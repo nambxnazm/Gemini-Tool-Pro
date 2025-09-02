@@ -773,5 +773,6 @@ Chỉ trả về bản đã chỉnh sửa, không giải thích hay bình luận
 
 if __name__ == '__main__':
     root = tk.Tk()
-    tool = GeminiToolPro(root) # Sử dụng class GeminiToolPro đã nâng cấp
+    tool = GeminiToolPro(root) 
+
     root.mainloop()
