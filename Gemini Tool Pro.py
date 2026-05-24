@@ -12,7 +12,7 @@ class GeminiToolPro:
         self.master = master
         master.title("Gemini Polish & Translater Tool")
 
-        # --- Style TTK ---
+        # --- Style TTK --- asdwasdawdawda
         self.style = ttk.Style()
         self.style.theme_use('clam')  # Hoặc thử 'alt', 'default'
         self.style.configure('TButton', padding=10, relief="raised", font=('Arial', 10)) # Font chữ Arial, padding lớn hơn
