@@ -40,7 +40,7 @@ class GeminiToolPro:
         config_frame = ttk.LabelFrame(main_paned, text="Cấu hình", padding=15) # Padding lớn hơn
         main_paned.add(config_frame, weight=1)
 
-        # API Key chính
+        # API Key chính nhung k phasi phu
         api_key_frame = ttk.Frame(config_frame)
         api_key_frame.pack(fill=tk.X, pady=5) # pack thay vì grid để bố cục đơn giản
         ttk.Label(api_key_frame, text="API Key chính:", width=15, anchor="e").pack(side=tk.LEFT, padx=(0, 5))
