@@ -83,7 +83,7 @@ class GeminiToolPro:
         translate_radio = ttk.Radiobutton(action_frame, text="Dịch thuật", variable=self.action_var, value="translate")
         translate_radio.pack(side=tk.LEFT)
 
-        # Thêm tùy chọn xử lý song song
+        # Thêm tùy chọn xử lý song song song song heheh
         parallel_frame = ttk.Frame(config_frame)
         parallel_frame.pack(fill=tk.X, pady=5)
         ttk.Label(parallel_frame, text="Xử lý song song:", width=15, anchor="e").pack(side=tk.LEFT, padx=(0, 5))
